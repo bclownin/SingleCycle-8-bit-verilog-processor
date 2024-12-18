@@ -7,6 +7,8 @@ Pyssembler.py can be used instead of Assembler.cpp, it is the same program but w
 
 After instructions from memory run out, device transitions into "SWmode". From there, the processor is programmed via 16 input switches and are "clocked" into the processor via SWexe. BEQ and JUMP are not implemented in SWmode.
 
+Register contents can be displayed on the 7 segment display using the DISPLAY instruction. To view memory contents, you can load the data into a register and then display that register. 
+
 instruction format:
 16 bit
 0000 0000 0000 0000
